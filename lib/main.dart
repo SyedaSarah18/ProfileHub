@@ -48,21 +48,21 @@ class ProfileWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'John Doe',
+                      'Jane Doe',
                       style: TextStyle(
                         fontSize: 27,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      'Software Developer',
+                      'Software Developer | Cybersecurity Analyst',
                       style: TextStyle(
                         fontSize: 18,
                         color: Colors.grey,
                       ),
                     ),
                     Text(
-                      'ACME Enterprise',
+                      'RINOS Corp',
                       style: TextStyle(
                         fontSize: 18,
                         color: Colors.grey,
@@ -90,7 +90,7 @@ class ProfileWidget extends StatelessWidget {
                     Icon(Icons.email),
                     SizedBox(width: 10),
                     Row(children: [
-                      Text('john.doe@hawk.iit.edu'),
+                      Text('jane.doe@ucalgary.ca'),
                     ]),
                   ],
                 ),
@@ -99,7 +99,7 @@ class ProfileWidget extends StatelessWidget {
                     Icon(Icons.house),
                     SizedBox(width: 8),
                     Row(children: [
-                      Text('10W 31st Street Chicago IL 60616'),
+                      Text('30 Country Hills Calgary AB'),
                     ]),
                   ],
                 ),
@@ -134,15 +134,15 @@ class ProfileWidget extends StatelessWidget {
                         ),
                         SizedBox(width: 8),
                         Text(
-                          'Illinois Institute of technology\n'
-                          'B.S. Computer Science',
+                          'University of Calgary\n'
+                          'B.E Computer Science',
                         ),
                       ],
                     ),
                     Spacer(),
                     Column(children: [
                       SizedBox(width: 8),
-                      Text('3.8\nGPA'),
+                      Text('3.9\nGPA'),
                     ]),
                   ],
                 ),
